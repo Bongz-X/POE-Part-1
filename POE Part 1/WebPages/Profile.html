@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photographer Profile Page</title>
+</head>
+ <!-- Adding favicon -->
+ <link rel="icon" href="../Images/find my.png">
+
+ <!-- Adding navigation & logo -->
+ <div>
+    <nav class="navbar">
+      <img src="../Images/find my.png" alt="logo" width="80">
+      <li><a href="Index.html">Home</a></li> 
+      <li><a href="About.html">About</a></li>
+      <li><a href="Contacts.html">Contacts</a></li>
+      <li><a href="Services.html">Services</a></li>
+      <li><a href="#">Photographers</a></li>  
+    </nav><hr>
+</div>
+<body>
+    <!-- Search box -->
+    <div class="Search Box">
+      <p>Find My Photographer</p>
+      <label for="Search Box"> Search:</label>
+      <input type="text" name="search" id="search" placeholder="Name or style of Photographer">
+      <input type="button" value="submit">
+    </div><br><hr>
+
+    <Main>
+      <!-- Profile image -->
+      <div class="Profile Picture">
+        <figure>
+        <img src="../Images/C.Profile Pic.jpg" alt="Profile Pic" width="140">
+          <figcaption>Lesego Chadwin Mamashela</figcaption>
+        </figure><br>
+      </div>
+      
+      <!-- Adding recent work -->
+      <h2>Recent Work Done</h2>
+      <div class="Recent images">
+        <figure>
+          <img src="../Images/Architecture.jpg" alt="Photo of church" width="150">
+          <figcaption>Architecture</figcaption>
+        </figure>
+        <figure>
+          <img src="../Images/Landscape photography.webp" alt="Landscape" width="150">
+          <figcaption>Landscape</figcaption>
+        </figure>
+        <figure>
+          <img src="../Images/Photography of people.jpg" alt="Photography of people" width="150">
+          <figcaption> Photography of people</figcaption>
+        </figure>
+      </div><br>
+
+      <!-- Adding table(prefered styles of photography) -->
+      <h3>Prefered styles of photography</h3>
+      <div class="table">
+        <table border="collapsed">
+          <tr>
+            <th>Architecture</th>
+            <th>Landscape</th>
+            <th>Photography of people</th>
+            <th>Abstract Photography</th>
+          </tr>
+          <tr>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+          </tr>
+        </table>
+      </div><hr>
+      
+      <!-- Adding Testimonial -->
+      <h2>Testimonial</h2>
+      <p><em>I recently booked Lesego to work as Photographer for my child's graduation. Not only is extremely professional, his attitude to his craft is extremely impressive. 10/10 experience (Rethabile54) </em></p>
+
+      <!-- Booking Form -->
+      <div class="Booking form">
+        <form>
+          <label for="fullName"> Full Name:</label>
+          <input type="text" name="fullName" id="fullName" placeholder="Enter Your Full Name" required>
+          <label for="email">Email:</label>
+          <input type="text" name="email" id="email" placeholder="Enter Your email" required>
+          <label for="bdate">Booking Date:</label>
+          <input type="date" name="bdate" id="bdate" required>
+          <input type="button" value="submit">
+        </form><hr>
+      </div>
+    </Main>
+      <!--Adding footer  -->
+      <footer>
+        <p><i>FMP&copy;ST10498917</i></p>
+      </footer>
+</body>
+</html>
